@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.004" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Testing\Coding\RestAssuredFramework\target\test-classes;D:\Testing\Coding\RestAssuredFramework\target\classes;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Abhishek Sharma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Abhishek Sharma\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Abhishek Sharma\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Abhishek Sharma\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Abhishek Sharma\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Abhishek Sharma\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Abhishek Sharma\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Abhishek Sharma\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Abhishek Sharma\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Abhishek Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Abhishek Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Abhishek Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-testng\2.13.8\allure-testng-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-rest-assured\2.13.8\allure-rest-assured-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-attachments\2.13.8\allure-attachments-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Abhishek Sharma\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Abhishek Sharma\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Abhishek Sharma\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Abhishek Sharma\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Abhishek Sharma\AppData\Local\Temp\surefire907608932294928643\surefirebooter13187817598325373909.jar C:\Users\Abhishek Sharma\AppData\Local\Temp\surefire907608932294928643 2022-09-27T10-14-00_561-jvmRun1 surefire15346087303628162513tmp surefire_08018572717648682343tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Testing\Coding\RestAssuredFramework\target\test-classes;D:\Testing\Coding\RestAssuredFramework\target\classes;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Abhishek Sharma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Abhishek Sharma\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Abhishek Sharma\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Abhishek Sharma\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Abhishek Sharma\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Abhishek Sharma\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Abhishek Sharma\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Abhishek Sharma\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Abhishek Sharma\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Abhishek Sharma\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Abhishek Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Abhishek Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Abhishek Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Abhishek Sharma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-testng\2.13.8\allure-testng-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\Abhishek Sharma\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-rest-assured\2.13.8\allure-rest-assured-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\io\qameta\allure\allure-attachments\2.13.8\allure-attachments-2.13.8.jar;C:\Users\Abhishek Sharma\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Abhishek Sharma\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Abhishek Sharma\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Abhishek Sharma\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Abhishek Sharma\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Abhishek Sharma\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Abhishek Sharma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Testing\Coding\RestAssuredFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Abhishek Sharma\AppData\Local\Temp\surefire907608932294928643\surefirebooter13187817598325373909.jar"/>
+    <property name="user.script" value=""/>
+    <property name="BASE_URI" value="https://api.spotify.com"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="Abhishek Sharma"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Abhishek Sharma\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABHISH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="D:\Testing\Coding\RestAssuredFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ACCOUNT_BASE_URI" value="https://accounts.spotify.com"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\Abhishek Sharma\scoop\shims;C:\Users\Abhishek Sharma\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Should_Not_Be_Able_To_Create_A_PlayList_with_ExpiredToken" classname="com.spotify.oauth2.tests.PlayListTests" time="7.03">
+    <system-out><![CDATA[Starting test :Should_Be_Able_To_Create_A_PlayList
+Thread id :17
+Starting test :Should_Be_Able_To_get_A_PlayList
+Thread id :18
+Starting test :Should_Be_Able_To_update_A_PlayList
+Thread id :19
+Starting test :Should_Not_Be_Able_To_Create_A_PlayList_with_ExpiredToken
+Thread id :20
+Starting test :Should_Not_Be_Able_To_Create_A_PlayList_without_Name
+Thread id :21
+Renewing token........
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQC688LGgF-7B5WLUIo-YjebFXCn0j0w_TgmkaP7uPFi1QFhXVYzy3k-UgggJV-madmzDD7KAfQv0phPYJi0D6Q4kebfDg5GYtPJLEw3SY9BSfIJIV8b3b7h1NxoFjjb6mI
+				grant_type=refresh_token
+				client_secret=79a8f1bbe9ba49ca9904d0c9598d675e
+				client_id=ff9cc341a2db472dbcc4ab70a2c6f723
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31l2v25arsuly27gh2gzulz54354/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Playlist ^1O*qOp&5^Z^#*$e&4*$^#&^**^&ZF",
+    "name": "Playlist kvW9S8SS9y",
+    "public": false
+}
+HTTP/1.1 200 OK
+date: Tue, 27 Sep 2022 04:44:13 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQBawOUj8KW4UiEs2THYyOPcUymjA7RLGDkmScB9hmbGX-zwyHf_XHdVuuLCl6rCodDQdvymBSvZf_AOVJY3Kw0ng23dTSM827Y;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: 8368945f51682998
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQB3CzYsI7Gc3JLy2UWakRNxux9C9HqfXzLM3Nx4tbSF2_iW8HIL1LaGrnkbI7laQr2CYqDStDXEmszU65hVNpbIK7F6m9a12PdI9xeGheV6QLv2j626hWKv1z-Q_zKCyMeYHUH2YbTTAnW0f7oEX6izIMFoLSo0IK0p3_YYdZszBFz1zjJFJ83HSlhxD6pYsfUBuw17GRJSvT5JIaRetJRjkdsuB3LszFf9VxBIZdCu_n24loiMVOy9DUwzipRz8Pz0sZNy9-bNc62K",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Tue, 27 Sep 2022 04:44:13 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "Invalid access token"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Should_Not_Be_Able_To_Create_A_PlayList_without_Name" classname="com.spotify.oauth2.tests.PlayListTests" time="8.971">
+    <system-out><![CDATA[Token is good to use
+Token is good to use
+Token is good to use
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/08qJE3kn1HrTzAZisoAqLI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Playlist Qt&&Mn#&*#^37*$&^^$$zm*^^&^^*&",
+    "name": "Playlist cVo9I2wlQt",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31l2v25arsuly27gh2gzulz54354/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Playlist &i&^J**FFcc*MA^y^^^^ZQZx7U#k3&",
+    "name": "Playlist ub1p9bE9CH",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31l2v25arsuly27gh2gzulz54354/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Playlist w#*^^Xu1#GU*&$$4#ze&4^*8Q#1&a^",
+    "name": "",
+    "public": false
+}
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/7JLPIVkq2WCxFGHMf8zXBo
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Tue, 27 Sep 2022 04:44:16 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Should_Be_Able_To_update_A_PlayList" classname="com.spotify.oauth2.tests.PlayListTests" time="9.037">
+    <failure message="Cannot parse content to class com.spotify.oauth2.pojo.Playlist because no content-type was present in the response and no default parser has been set.&#10;You can specify a default parser using e.g.:&#10;RestAssured.defaultParser = Parser.JSON;&#10;&#10;or you can specify an explicit ObjectMapper using as(class com.spotify.oauth2.pojo.Playlist, &lt;ObjectMapper&gt;);" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: 
+Cannot parse content to class com.spotify.oauth2.pojo.Playlist because no content-type was present in the response and no default parser has been set.
+You can specify a default parser using e.g.:
+RestAssured.defaultParser = Parser.JSON;
+
+or you can specify an explicit ObjectMapper using as(class com.spotify.oauth2.pojo.Playlist, <ObjectMapper>);
+	at com.spotify.oauth2.tests.PlayListTests.Should_Be_Able_To_update_A_PlayList(PlayListTests.java:192)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Tue, 27 Sep 2022 04:44:16 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+]]></system-out>
+  </testcase>
+  <testcase name="Should_Be_Able_To_get_A_PlayList" classname="com.spotify.oauth2.tests.PlayListTests" time="9.072">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-IjY3ZmI2YzZhODhlYTk2OTc5NTVmZmQ1OTliNzJjYTJmIg=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Tue, 27 Sep 2022 04:44:16 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Updated playlist description",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7JLPIVkq2WCxFGHMf8zXBo"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/7JLPIVkq2WCxFGHMf8zXBo",
+    "id": "7JLPIVkq2WCxFGHMf8zXBo",
+    "images": [
+        
+    ],
+    "name": "Updated Playlist tera bhai",
+    "owner": {
+        "display_name": "Abhishek Sharma",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31l2v25arsuly27gh2gzulz54354"
+        },
+        "href": "https://api.spotify.com/v1/users/31l2v25arsuly27gh2gzulz54354",
+        "id": "31l2v25arsuly27gh2gzulz54354",
+        "type": "user",
+        "uri": "spotify:user:31l2v25arsuly27gh2gzulz54354"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MTcsZDQ4N2E4ZjgyMWZjODM4YTdkZDk3ZjFkN2Q2ZDY3ZDBlMmQ5NTk2Mg==",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7JLPIVkq2WCxFGHMf8zXBo/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7JLPIVkq2WCxFGHMf8zXBo"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Should_Be_Able_To_Create_A_PlayList" classname="com.spotify.oauth2.tests.PlayListTests" time="9.127">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/6mcXPvpRO3VrmnTysJkYDZ
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Tue, 27 Sep 2022 04:44:16 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Playlist &i&^J**FFcc*MA^y^^^^ZQZx7U#k3&",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6mcXPvpRO3VrmnTysJkYDZ"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/6mcXPvpRO3VrmnTysJkYDZ",
+    "id": "6mcXPvpRO3VrmnTysJkYDZ",
+    "images": [
+        
+    ],
+    "name": "Playlist ub1p9bE9CH",
+    "owner": {
+        "display_name": "Abhishek Sharma",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31l2v25arsuly27gh2gzulz54354"
+        },
+        "href": "https://api.spotify.com/v1/users/31l2v25arsuly27gh2gzulz54354",
+        "id": "31l2v25arsuly27gh2gzulz54354",
+        "type": "user",
+        "uri": "spotify:user:31l2v25arsuly27gh2gzulz54354"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSxlNzRjMzNiYTI2NTkxZGY2OGRlOGM2NjAyZDZlMjY1OWViZDZjZmRl",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6mcXPvpRO3VrmnTysJkYDZ/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6mcXPvpRO3VrmnTysJkYDZ"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
