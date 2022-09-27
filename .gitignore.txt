@@ -1,6 +1,0 @@
-.settings
-test-output
-.classpath
-.project
-.gitignore
-target
